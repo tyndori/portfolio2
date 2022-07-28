@@ -1,0 +1,126 @@
+body{
+    background-color: #586ba6;
+    margin: 0;
+	padding: 0;
+	font-family: "shippori Mincho" , serif;
+	font-size: 24px;
+	line-height: 1.5; 
+}
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a:hover{
+	opacity: 0.2;
+}
+a{
+	transition: 0.3s;
+}
+.wrapper{
+    width:100%;
+}
+.wrapper .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
+}
+@media (min-width: 992px) {
+    .wrapper .container .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.wrapper .content-item {
+    width:100%;
+}
+@media (min-width: 992px) {
+    .wrapper .content-item {
+        width:50%;
+    }
+}
+.wrapper .image{
+    display:block;
+    max-width:100%;
+    margin:0px auto;
+}
+.wrapper .text{
+    padding:50px;
+}
+.wrapper .text .heading{
+    margin:0px 0px 50px 0px;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.child img{
+    width:100%;
+}
+.text_2{
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image{
+    width:80%;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.page-header,.page-hero,.page-content,.page-footer {
+    min-width: 1280px;
+    width: 100%;
+}
+.page-header .logo,.page-footer .logo {
+    width: 256px;
+}
+.page-header {
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	padding: 2px 0 10px;
+	background-color: #bcbf65;
+}
+.page-header__inner,.page-content__inner {
+    box-sizing: content-box;
+}
+.page-header__inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.page-header__inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.global-nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.footer-column__item{
+    background-color: #5f5c73;
+}
+.content-item{
+	display: flex;
+	margin: 0 auto;
+	max-width: 954px;
+	justify-content: space-between;
+}
